@@ -64,10 +64,21 @@ const CTASection = () => {
             </div>
             
             {/* CTA Button */}
-            <Button variant="hero" size="xl" className="w-full mb-4">
-              <ShoppingCart className="w-5 h-5" />
-              Comprar Agora
-            </Button>
+            <Button
+  asChild
+  variant="hero"
+  size="xl"
+  className="w-full mb-4"
+>
+  <a
+    href="https://checkout-receitas.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <ShoppingCart className="w-5 h-5" />
+    Comprar Agora
+  </a>
+</Button>
             
             <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
               <Shield className="w-4 h-4 text-primary" />
