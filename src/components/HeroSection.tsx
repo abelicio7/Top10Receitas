@@ -67,7 +67,7 @@ const HeroSection = () => {
     rel="noopener noreferrer"
   >
     <ShoppingCart className="w-5 h-5" />
-    Comprar Agora
+    Ver Receitas
   </a>
 </Button>
             </motion.div>
