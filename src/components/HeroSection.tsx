@@ -55,14 +55,21 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              <Button variant="hero" size="xl">
-                <ShoppingCart className="w-5 h-5" />
-                Comprar Agora
-              </Button>
-              <Button variant="outline" size="lg">
-                <ChefHat className="w-5 h-5" />
-                Ver Receitas
-              </Button>
+              <Button
+  asChild
+  variant="hero"
+  size="xl"
+  className="w-full mb-4"
+>
+  <a
+    href="https://checkout-receitas.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <ShoppingCart className="w-5 h-5" />
+    Comprar Agora
+  </a>
+</Button>
             </motion.div>
             
             <motion.div 
