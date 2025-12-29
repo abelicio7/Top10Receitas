@@ -29,7 +29,7 @@ const comments = [
   {
     name: "João Macuácua",
     avatar: "JM",
-    comment: "Mandei mensagem no WhatsApp com dúvidas antes de pagar e responderam rápido. Depois de pagar, recebi logo o e-book. Muito profissional!",
+    comment: "Depois de pagar, recebi o link para mandar mensagem no WhatsApp mesmo com dúvidas, eles responderam rápido,  recebi logo o acesso as receitas. Muito profissional!",
     likes: 38,
     hearts: 9,
     time: "há 4 dias"
