@@ -80,10 +80,14 @@ const CTASection = () => {
   </a>
 </Button>
             
-            <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
-              <Shield className="w-4 h-4 text-primary" />
-              Pagamento rápido, seguro e acesso imediato
-            </p>
+            <div className="space-y-2 text-sm text-muted-foreground">
+              <p className="flex items-center justify-center gap-2">
+                🔒 Pagamento 100% seguro via M-Pesa e e-Mola
+              </p>
+              <p className="flex items-center justify-center gap-2">
+                📲 Receba suas receitas imediatamente no WhatsApp
+              </p>
+            </div>
           </motion.div>
         </motion.div>
       </div>
