@@ -49,6 +49,21 @@ const HeroSection = () => {
               Receitas tradicionais explicadas passo a passo, de forma simples e prática.
             </motion.p>
             
+            <motion.div
+              className="mb-6 flex items-baseline gap-3 justify-center lg:justify-start"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.45 }}
+            >
+              <span className="text-sm text-muted-foreground line-through">259 MT</span>
+              <span className="font-display text-4xl md:text-5xl font-extrabold text-primary">
+                179 <span className="text-2xl md:text-3xl align-top">MT</span>
+              </span>
+              <span className="px-2 py-1 rounded-md bg-accent/15 text-accent text-xs font-bold uppercase tracking-wide">
+                Oferta
+              </span>
+            </motion.div>
+
             <motion.div 
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
               initial={{ opacity: 0, y: 20 }}
