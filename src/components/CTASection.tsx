@@ -50,7 +50,20 @@ const CTASection = () => {
               <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-2">
                 Top 10 Receitas Típicas de Moçambique
               </h3>
-              <p className="text-muted-foreground">E-book Digital em PDF</p>
+              <p className="text-muted-foreground mb-6">E-book Digital em PDF</p>
+
+              <div className="inline-flex flex-col items-center gap-2 px-6 py-4 rounded-2xl bg-primary/5 border border-primary/20">
+                <span className="text-sm text-muted-foreground line-through">De 259 MT</span>
+                <div className="flex items-baseline gap-2">
+                  <span className="font-display text-5xl md:text-6xl font-extrabold text-primary leading-none">
+                    179
+                  </span>
+                  <span className="font-display text-2xl md:text-3xl font-bold text-primary">MT</span>
+                </div>
+                <span className="px-3 py-1 rounded-full bg-accent text-accent-foreground text-xs font-bold uppercase tracking-wide">
+                  Pagamento único
+                </span>
+              </div>
             </div>
             
             {/* Benefits */}
