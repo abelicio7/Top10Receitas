@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import StatsBanner from "@/components/StatsBanner";
 import BenefitsSection from "@/components/BenefitsSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import AudienceSection from "@/components/AudienceSection";
@@ -14,6 +15,7 @@ const Index = () => {
     <main className="min-h-screen">
       <PurchaseNotification />
       <HeroSection />
+      <StatsBanner />
       <BenefitsSection />
       <RecipeGallery />
       <FeaturesSection />
