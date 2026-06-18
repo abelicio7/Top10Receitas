@@ -73,15 +73,52 @@ const RecipeGallery = () => {
           ))}
         </div>
 
+        {/* Stats bar below gallery */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="mt-12 bg-card border border-border/50 rounded-2xl p-6 md:p-8 max-w-4xl mx-auto"
+        >
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
+            <div className="text-center md:text-left">
+              <div className="font-display text-5xl md:text-6xl font-extrabold text-primary leading-none">
+                200+
+              </div>
+              <div className="font-semibold text-foreground mt-1">Receitas no total</div>
+            </div>
+            <div className="hidden md:block w-px h-16 bg-border" />
+            <div className="grid grid-cols-2 gap-x-8 gap-y-2 text-sm">
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-primary" />
+                <span className="text-muted-foreground">Refeições principais</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-accent" />
+                <span className="text-muted-foreground">Sobremesas & doces</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-primary/70" />
+                <span className="text-muted-foreground">Lanches & salgados</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-accent/70" />
+                <span className="text-muted-foreground">Sopas & entradas</span>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.4 }}
-          className="text-center mt-10 text-muted-foreground flex items-center justify-center gap-2"
+          className="text-center mt-8 text-muted-foreground flex items-center justify-center gap-2"
         >
           <Lock className="w-4 h-4" />
-          Receitas completas com ingredientes e modo de preparo — disponíveis no e-book.
+          Receitas completas com ingredientes e modo de preparo — todas no e-book.
         </motion.p>
       </div>
     </section>
