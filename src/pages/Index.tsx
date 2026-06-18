@@ -7,6 +7,7 @@ import SocialProofSection from "@/components/SocialProofSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import PurchaseNotification from "@/components/PurchaseNotification";
+import RecipeGallery from "@/components/RecipeGallery";
 
 const Index = () => {
   return (
@@ -14,9 +15,11 @@ const Index = () => {
       <PurchaseNotification />
       <HeroSection />
       <BenefitsSection />
+      <RecipeGallery />
       <FeaturesSection />
       <AudienceSection />
       <BonusSection />
+
       <SocialProofSection />
       <CTASection />
       <Footer />
