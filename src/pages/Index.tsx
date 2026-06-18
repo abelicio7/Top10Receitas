@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import StatsBanner from "@/components/StatsBanner";
 import BenefitsSection from "@/components/BenefitsSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import AudienceSection from "@/components/AudienceSection";
