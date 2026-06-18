@@ -77,8 +77,8 @@ const BenefitsSection = () => {
             O que você vai encontrar?
           </h2>
           <p className="text-lg text-muted-foreground">
-            Um guia completo com receitas doces e salgadas, pensado para o dia a dia, 
-            usando ingredientes acessíveis e métodos fáceis.
+            Um guia completo com <span className="font-semibold text-foreground">mais de 200 receitas</span> doces e salgadas, 
+            pensado para o dia a dia, usando ingredientes acessíveis e métodos fáceis.
           </p>
         </motion.div>
         

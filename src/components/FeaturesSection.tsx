@@ -94,7 +94,7 @@ const FeaturesSection = () => {
                   </div>
                   <div className="flex items-center justify-between py-3 border-b border-border/50">
                     <span className="text-muted-foreground">Receitas</span>
-                    <span className="font-semibold text-foreground">10+ Receitas</span>
+                    <span className="font-semibold text-accent">200+ Receitas</span>
                   </div>
                   <div className="flex items-center justify-between py-3 border-b border-border/50">
                     <span className="text-muted-foreground">Dispositivos</span>

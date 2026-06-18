@@ -47,10 +47,13 @@ const CTASection = () => {
             transition={{ delay: 0.2 }}
           >
             <div className="mb-8">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/15 text-accent text-sm font-bold uppercase tracking-wider mb-3">
+                <span>🔥</span> 200+ Receitas Inclusas
+              </div>
               <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-2">
-                Top 10 Receitas Típicas de Moçambique
+                O Maior E-book de Receitas Típicas de Moçambique
               </h3>
-              <p className="text-muted-foreground mb-6">E-book Digital em PDF</p>
+              <p className="text-muted-foreground mb-6">PDF Digital com mais de 200 receitas autênticas</p>
 
               <div className="inline-flex flex-col items-center gap-2 px-6 py-4 rounded-2xl bg-primary/5 border border-primary/20">
                 <span className="text-sm text-muted-foreground line-through">De 259 MT</span>

@@ -30,24 +30,29 @@ const HeroSection = () => {
               <span className="text-sm font-semibold">E-book Digital</span>
             </motion.div>
             
-            <motion.h1 
-              className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6"
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
+              className="mb-6"
             >
-              Top 10 Receitas{" "}
-              <span className="text-primary">Típicas de Moçambique</span>
-            </motion.h1>
-            
-            <motion.p 
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/15 text-accent text-sm font-bold uppercase tracking-wider mb-4">
+                <span className="text-lg">🔥</span> Mais de 200 Receitas
+              </div>
+              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
+                O Maior E-book de{" "}
+                <span className="text-primary">Receitas Típicas de Moçambique</span>
+              </h1>
+            </motion.div>
+
+            <motion.p
               className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Descubra os sabores autênticos da culinária moçambicana sem sair de casa. 
-              Receitas tradicionais explicadas passo a passo, de forma simples e prática.
+              Mais de <span className="font-bold text-foreground">200 receitas autênticas</span> da culinária moçambicana, todas explicadas passo a passo. 
+              Do café da manhã ao jantar — doces, salgados, sopas e pratos tradicionais para impressionar a família toda.
             </motion.p>
             
             <motion.div
