@@ -15,8 +15,7 @@ const stats = [
     icon: Star,
   },
   {
-    number: "80+
-",  // 80+
+    number: "80+",
     label: "Refeições",
     sublabel: "Carnes, peixes e vegetarianos",
     icon: ChefHat,
