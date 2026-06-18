@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ShoppingCart, BookOpen, ChefHat } from "lucide-react";
-import ebookCover from "@/assets/ebook-cover.jpg";
+import ebookCoverAsset from "@/assets/ebook-cover-new.png.asset.json";
+const ebookCover = ebookCoverAsset.url;
 
 const HeroSection = () => {
   return (
