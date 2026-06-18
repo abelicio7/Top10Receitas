@@ -132,7 +132,7 @@ const HeroSection = () => {
               >
                 <img 
                   src={ebookCover} 
-                  alt="E-book Top 10 Receitas Típicas de Moçambique"
+                  alt="E-book com 200+ Receitas Típicas de Moçambique"
                   className="w-72 md:w-80 lg:w-96 rounded-2xl shadow-elevated hover:shadow-glow transition-shadow duration-500"
                 />
                 
@@ -143,7 +143,7 @@ const HeroSection = () => {
                   animate={{ scale: 1 }}
                   transition={{ delay: 1, type: "spring" }}
                 >
-                  PDF Digital
+                  200+ Receitas
                 </motion.div>
               </motion.div>
             </div>
