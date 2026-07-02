@@ -10,18 +10,19 @@ import img7 from "@/assets/recipes/IMG_7475.png.asset.json";
 import img8 from "@/assets/recipes/IMG_7476.png.asset.json";
 import img9 from "@/assets/recipes/IMG_7478.png.asset.json";
 import img10 from "@/assets/recipes/IMG_7479.png.asset.json";
+import { assetUrl } from "@/lib/asset-url";
 
 const recipes = [
-  { src: img1.url, name: "Pato à Zambeziana", tag: "Refeição" },
-  { src: img2.url, name: "Esparguete com Sardinha", tag: "Refeição" },
-  { src: img3.url, name: "Wrap de Frango Moçambicano", tag: "Lanche" },
-  { src: img4.url, name: "Peixe Grelhado à Moçambicana", tag: "Refeição" },
-  { src: img5.url, name: "Caldeirada de Chouriço", tag: "Refeição" },
-  { src: img6.url, name: "Bolo de Coco Tradicional", tag: "Sobremesa" },
-  { src: img7.url, name: "Pastéis de Massa Folhada", tag: "Lanche" },
-  { src: img8.url, name: "Chamuças & Rissóis", tag: "Lanche" },
-  { src: img9.url, name: "Mesa de Salgadinhos", tag: "Lanches" },
-  { src: img10.url, name: "Charlotte de Frutas", tag: "Sobremesa" },
+  { src: assetUrl(img1.url), name: "Pato à Zambeziana", tag: "Refeição" },
+  { src: assetUrl(img2.url), name: "Esparguete com Sardinha", tag: "Refeição" },
+  { src: assetUrl(img3.url), name: "Wrap de Frango Moçambicano", tag: "Lanche" },
+  { src: assetUrl(img4.url), name: "Peixe Grelhado à Moçambicana", tag: "Refeição" },
+  { src: assetUrl(img5.url), name: "Caldeirada de Chouriço", tag: "Refeição" },
+  { src: assetUrl(img6.url), name: "Bolo de Coco Tradicional", tag: "Sobremesa" },
+  { src: assetUrl(img7.url), name: "Pastéis de Massa Folhada", tag: "Lanche" },
+  { src: assetUrl(img8.url), name: "Chamuças & Rissóis", tag: "Lanche" },
+  { src: assetUrl(img9.url), name: "Mesa de Salgadinhos", tag: "Lanches" },
+  { src: assetUrl(img10.url), name: "Charlotte de Frutas", tag: "Sobremesa" },
 ];
 
 const RecipeGallery = () => {
