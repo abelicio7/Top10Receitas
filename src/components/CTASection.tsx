@@ -87,7 +87,7 @@ const CTASection = () => {
   className="w-full mb-4"
 >
   <a
-    href="https://www.ensinapay.com/checkout/53c98b9a-c4c5-44c5-a51b-9aa0076b6f7b"
+    href="https://pagar.co.mz/p/de-200-tipicas-de-mocambique-ebaabg"
     target="_blank"
     rel="noopener noreferrer"
   >
